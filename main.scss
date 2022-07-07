@@ -1,0 +1,41 @@
+@import "src/shared/variables";
+@import "src/shared/variablesbotstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.max{
+    transition: all 300ms ease-in-out;
+
+    &:hover{
+        filter: brightness(80%);
+    }
+}
+.mexfont{
+    font-family: 'Pacifico', cursive;
+    color:$mybgblack;
+}
+
+.mexfant{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.col-12{
+&-col-md-6{
+    &-col-lg-4{
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+}
+}
+
+.navbar-brand{
+    &-fs-1{
+        &-text-white{
+                color: $myprimary;
+        }
+    }
+}

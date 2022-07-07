@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listapinturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="museo.xsd">
+    <pinturas>
+        <nombre>la noche estrellada</nombre>
+        <artista nombre="Vincent" apellido="Van Gogh" nacionalidad="Netherlands" />        
+        <release>1889</release>       
+    </pinturas>
+        
+    <pinturas>
+        <nombre>autorretrato</nombre>
+        <artista nombre="Vincent" apellido="Van Gogh" nacionalidad="Netherlands" />        
+        <release>1889</release>
+    </pinturas>
+
+    <pinturas>
+        <nombre> Los girasoles </nombre>
+        <artista nombre="Vincent" apellido="Van Gogh" nacionalidad="Netherlands" />        
+        <release> - </release>
+    </pinturas>
+
+</listapinturas>

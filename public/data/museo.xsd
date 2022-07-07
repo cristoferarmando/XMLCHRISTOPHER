@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listapinturas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pinturas" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="artista">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre" use="required" />
+                                    <xs:attribute name="apellido" use="required" />
+                                    <xs:attribute name="nacionalidad" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="release" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
